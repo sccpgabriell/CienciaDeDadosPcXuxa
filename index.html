@@ -24,34 +24,34 @@
   <!-- DIV que armazenará todos os botões -->
   <div id="botoes">
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Tamanho Fonte" onclick="mudatamanhofonte()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Cor Fonte" onclick="mudarcorfonte()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Blackdiv" onclick="blackdiv()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="italico" onclick="italico()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="negrito" onclick="negrito()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Incluir border" ondblclick="border()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Tira borda" onmouseenter="excluirborder()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Esconder div" onclick="esconderdiv()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Reaparecer div" onclick="reaparecerdiv()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Nao" onclick="nao()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
     <input type="button" value="X" />
@@ -86,53 +86,53 @@
 
   <script> // Começa a brincadeira com JS
     // Botão X - xx
-    function x() {
-
+    function mudatamanhofonte() {
+      document.getElementById("manipula").style.fontSize = "20pt";
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function mudarcorfonte() {
+     document.getElementById("manipula").style.color = "#ffffff" 
 }
 //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function backdiv() {
+      document.getElementById("manipula").style.backgroundColor = "black"
 }
 //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function italico() {
+      document.getElementById("manipula").style.fontStyle = "italic"
 }
 //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function negrito() {
+      document.getElementById("manipula").style.fontWeight = "bold"
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function border() {
+      document.getElementById("manipula").style.border = "2px solid black"
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function excluirborder() {
+      document.getElementById("manipula").style.border = "0px"
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function esconderdiv() {
+      document.getElementById("manipula").style.display = "none"
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function reaparecerdiv() {
+      document.getElementById("manipula").style.display = "block"
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function nao() {
+      document.getElementsByClassName("chamada")[0].innerHTML = "Neste Botáo NÁO"
     }
     //fim do Botão X
     // Botão X - xx
